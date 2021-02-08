@@ -1,0 +1,111 @@
+.navodilo { 
+    height: 20px;
+    width: inherit;
+    position: absolute;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.navodilo h4 {
+    font-size: 1.7em;
+}
+
+.flex-container > div.box {
+    max-width: 90px;
+    text-align: center;
+    margin: 2%;
+    left: 20px;
+}
+
+.gumbi {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.gumbi button {
+    padding: 0.5em;
+    border-radius: 2em;
+    border: 1px solid rgba(139, 83, 139, 0.767);
+    box-shadow: 0px 15px 10px -10px rgba(97, 92, 92, 0.336);
+    background-color: whitesmoke;
+}
+
+.gumbi button:hover {
+    color: black;
+    box-shadow: none;
+    border: 1px solid rgba(221, 23, 221, 0.788);
+}
+
+.color { 
+    height: 90px; 
+    max-width: 90px; 
+    margin-top: 0;
+    border-radius: 10%;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 15px 4px 10px -5px rgba(106, 151, 144, 0.541);
+}
+
+.barveInput {
+    margin-top: 10%; 
+    width: 90px; 
+    border-radius: 1.8em;
+ }
+
+.box p {
+    margin-bottom:0; 
+    display: none;
+}    
+
+#rainbow {
+    height: 88px;
+    background: linear-gradient(to right, red 10%,orange 0 20%,#ffff1a 0 30%,#00e600 0 40%,#33ffff 0 50%,#4db8ff 0 60%,blue 0 70%,indigo 0 80%,violet 0 90%,pink 0 100%);
+    border-radius: 10%;
+ } 
+
+.smile {
+    height: 1em;
+    margin-top: 2px;
+}
+
+.rešitev {
+    margin: 0; 
+    margin-bottom: 5px;
+    height: 20px;
+}
+
+#prikaz {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:450px) {
+
+    .navodilo { 
+        height: 100%;
+        max-width: 100%;
+    }
+
+    .color { 
+        max-height: 4em; 
+        max-width: 4em;
+    }
+
+    .form-control {
+        max-width: 4em; 
+    }
+
+    #rainbow {
+        max-height: 3.8em; 
+    } 
+
+    .smile {
+        max-height: 1em;
+    }
+
+    .gumbi {
+        width: 90%;
+        margin-top: -25%;
+        position: absolute;
+    }
+}

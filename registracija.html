@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>Subscribe</title>
+	
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/registracija.css">
+</head>
+<body>
+    <nav class="navbar navbar-default" >
+		<div class="container-fluid" >
+			<div class="navbar-header" id="lol">
+				<a class="navbar-brand" href="index.html">Willst du deutch lernen?</a>
+			</div>
+	        <ul class="nav navbar-nav">
+				<li><a href="barve.html">Farben</a></li>
+				<li><a href="dolocni-cleni.html">die der das</a></li>
+				<!-- <li><a href="pridevniki.html">Adjektive</a></li>
+				<li><a href="#">trennbare Verben</a></li>
+				<li><a href="#">Zeit</a></li>
+				<li><a href="#">Plural</a></li>
+				<li><a href="#">Possessivpronomen</a></li>
+				<li><a href="#">Familie</a></li>
+				<li><a href="#">Verben</a></li> -->
+			</ul>	
+		</div>
+    </nav>
+
+    <div id="vpis">
+        <a href="registracija.html" id="vpisCurrent">Vpis</a>
+    </div>
+
+    <aside id="aside-api">
+        <!-- Api za polno luno...malo za hec...-->
+        <div>Naslednja polna luna: </div> <br />
+        <div id="ex1"></div>
+    </aside>
+
+	<div class="container">
+		<!--form-->	  
+        <div class="flex-container" id="flCont">
+            <form name="uporabnikVpis" method="POST" action="#">
+                <legend >Pridruži se :)</legend>
+               
+                    <div>
+                        <p>
+                            <input type="text" id="name" name="userName" placeholder="Uporabniško ime" autofocus required/>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <input type="email" id="email" name="userEmail" placeholder="E-naslov" required />
+                        </p>
+                    </div>
+                        <p>
+                            <input type="password" id="password" name="userPassword" placeholder="Geslo" pattern="[a-zA-Z0-9]{5,}"  required />
+                        </p>
+                    <div>
+                        <p>
+                            <input type="password" id="confirmPassword" name="userConfirmPassword" placeholder="Ponovi geslo" required />
+                        </p>
+                    </div>
+                    <!-- <div>
+                        <p>
+                            <label for="starost">Starost:</label><br />
+                            <input type="number" id="starost" name="userStarost" value="18" min="1" max="120" required />
+                        </p>
+                    </div> -->
+                    <div>
+                        <p>
+                            <textarea id="textarea" name="userTextarea" placeholder="Komentar" rows="4"></textarea>
+                        </p>
+                    </div><br />
+                    <p>
+                        <label for="nemscina">Izberi najljubšo temo: </label><br />
+                        <select>
+                            <option>Farben</option>
+                            <option>die der das</option>
+                            <option>Adjektive</option>
+                            <option>trennbare Verben</option>
+                            <option>Zeit</option>
+                            <option>Plural</option>
+                            <option>Possessivpronomen</option>
+                            <option>Familie</option>
+                            <option>Verben</option>
+                        </select><br /><br />
+                    </p>
+                    <button type="submit" id="submB">Prijava</button>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="row">
+            <div class="col-xs-2 col-sm-2 col-lg-2 item"></div>
+            <div class="col-xs-8 col-sm-8 col-lg-8 item">
+                <p>Učenje je zabavno</p>
+            </div>
+            <div class="col-xs-2 col-sm-2 col-lg-2 item" id="icon">
+            </div>
+        </div>
+    </footer>
+
+	<!-- Core scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- My scripts -->
+    <script src="js/registracija.js"></script>   
+    <script type="text/javascript" src="js/polnaLunaApi.js"></script>
+</body>
+</html>

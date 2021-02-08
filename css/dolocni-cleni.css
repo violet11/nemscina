@@ -1,0 +1,195 @@
+#dolocnClenContainer {
+    height: 1070px;
+    position: relative;
+}
+
+.randBesedeBox {
+    text-align: center;
+    margin-top: 70px;
+    height: 265px;
+}
+
+.naslov {
+    margin: 5%;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: black;
+}
+
+.naslovTransform {
+    margin: 5%;
+    font-size: 1.8em;
+    font-weight: bold;
+    transform: scale(1.2);
+    color: rgb(197, 12, 197); 
+    transition: transform 2s, color 2s;
+}
+
+#dolCleniBesede {
+    display: grid;
+    width: 95%;
+    height: 150px; 
+    grid-template-columns: auto auto auto auto;
+    border: 1px solid black;
+    border-radius: 0.4em;
+    background-color: rgb(235, 206, 78);
+    padding: 2%;
+    margin: 0 auto 10px auto;
+}
+
+#dolCleniBesede p {
+    font-size: 1.4em;
+    text-align: center;
+    margin: 2%;
+    color: black;
+}
+
+.randomLineP {
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+#gumbVadiZnova {
+    padding: 0.7em;
+    border-radius: 2em;
+    border: 1px solid fuchsia;
+    box-shadow: 0px 15px 10px -10px rgba(97, 92, 92, 0.336);
+    font-size: 1.3em;
+    margin: 50px 0 100px 0;
+}
+
+#gumbVadiZnova:hover {
+    color: black; 
+    box-shadow: none;
+}
+
+#steviloBesed {
+    margin: 5px 45px;
+    float: right;
+}
+
+#animaFruit {
+    margin: 30px 0 10px 0;
+    height: 35px;
+}
+
+.inputContainer {
+    width: 100%;
+    margin: auto;
+}
+
+.inputContainer button, input {
+    border-radius: 2em;
+    padding: 0.4em 0 0.4em 0.8em;
+    font-size: 1.2em;
+    margin: 5%;
+    border: 1px solid silver; 
+}
+
+.inputContainer input:focus {
+    border-color: rgba(184, 17, 184, 0.829);
+    box-shadow: 0 0 8px rgba(184, 17, 184, 0.589);
+}
+
+.inputContainer button {
+    padding: 0.5em;
+}
+
+#gumbPreveriDas {
+    background-color:#fda9e1;
+}
+
+#gumbPreveriDas:hover {
+    background-color:#fa7fd1;
+    color: black;
+    border: 1px solid #ff00aa;
+
+}
+
+#gumbPreveriDas:active {
+    background-color:#fd41be;
+    border-color: black;
+}
+
+#gumbPreveriDie {
+    background-color: #9fdebb;
+}
+
+#gumbPreveriDie:hover {
+    background-color:#68df9d;
+    border: 1px solid  #01b351;
+}
+
+#gumbPreveriDie:active {
+    background-color:#05c75c;
+    border-color: black;
+}
+
+#gumbPreveriDer {
+    background-color: #f1cd77;
+}
+
+#gumbPreveriDer:hover {
+    background-color:#f7c34a;
+    color: black;
+    border: 1px solid #d4a303;
+}
+
+#gumbPreveriDer:active {
+    background-color:#f8b414;
+    border-color: black;
+}
+
+.boxInputInSpodnji {
+    padding: 25px;
+    margin-top: -20px;
+}
+
+.spodnjiBox {
+    height: 480px;
+    width: 100%;
+    border: 2px dotted rgb(63, 59, 59);
+    border-radius: 1em;
+    margin: 20px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 490px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#izpisPravilnihDas {
+    color: #fa44bd;
+}
+
+#izpisPravilnihDie {
+    color: #21ce6f;
+}
+
+#izpisPravilnihDer {
+    color: #ecaa10;
+}
+
+/* .successApple {
+    animation-name: appleFall;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes appleFall {
+    0% {opacity:0;left:500px; top:350px;}
+    100% {left:500px; top:394px;}
+}
+
+.successPear {
+    animation-name: pearFall;
+    animation-duration: 1s; 
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+@keyframes pearFall {
+    0% {opacity:0;left:580px; top:350px;}
+    100% {left:580px; top:394px;}
+} */

@@ -1,0 +1,43 @@
+.praznoPolje {
+    border-color: fuchsia;
+}
+
+.okPolje {
+    border-color: none;
+}
+
+form {
+    text-align: center;
+    margin-top: 2em;
+}
+
+form div {
+    margin: 1em;
+}
+
+form input, textarea {
+    border-radius: 0.7em;
+    padding: 0.8em;
+    border: 1px solid rgb(107, 97, 97);
+    width: 15em;
+}
+
+form textarea {
+    resize: horizontal;
+}
+
+form select {
+    padding: 0.5em  ;
+}
+
+form button {
+    padding: 0.7em;
+    border-radius: 2em;
+    border: 1px solid fuchsia;
+    box-shadow: 0px 15px 10px -10px rgba(97, 92, 92, 0.336);
+}
+
+form button:hover {
+    color: black; 
+    box-shadow: none;
+}

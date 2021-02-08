@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dodaj na seznam</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/dolocni-cleni.css">
+
+    <style>
+    #mojDiv {
+        text-align: center;
+        padding: 5%;
+    }
+
+    #mojDiv input {
+        border-radius: 10px;
+    }
+
+    #seznam h2 {
+        color: beige;
+        margin-left: 15px;
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-default" id="seznam">
+      <div class="container-fluid" id="navContainer">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Willst du deutch lernen?</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="barve.html">Farben</a></li>
+            <li><a href="dolocni-cleni.html">die der das</a></li>
+            <!-- <li><a href="pridevniki.html">Adjektive</a></li>
+            <li><a href="#">trennbare Verben</a></li>
+            <li><a href="#">Zeit</a></li>
+            <li><a href="#">Plural</a></li>
+            <li><a href="#">Possessivpronomen</a></li>
+            <li><a href="#">Familie</a></li>
+            <li><a href="#">Verben</a></li> -->
+        </ul>
+    </div>
+    </nav>
+    <div >
+        <div class="container">
+            <div id="mojDiv">
+                <h2>Dodaj na seznam</h2>
+                <input id="mojInputDas" type="text" placeholder="das"/>
+                <input id="mojInputDie" type="text" placeholder="die"/>
+                <input id="mojInputDer" type="text" placeholder="der"/>
+                <button class="besedeBtn" id="vpisiGumb" type="button">prikaži</button>
+                <div id="seznamDiv"></div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Učenje je zabavno</p>
+    </footer>
+    
+    <!-- My scripts -->
+    <script type="text/javascript" src="js/dodajNaSeznam.js"></script>
+</body>
+</html>
